@@ -48,7 +48,7 @@ export function Navbar() {
       href: "/projects",
     },
     {
-      name: "Events",
+      name: "Conference",
       href: "/events",
     },
     {

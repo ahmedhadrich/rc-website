@@ -124,13 +124,13 @@ export const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/projects">
+            <Link href="/events">
               <Button
                 variant="default"
                 className="px-8 py-6 text-lg rounded-3xl"
                 size="lg"
               >
-                Explore Our Projects
+                to the Conference
               </Button>
             </Link>
           </div>

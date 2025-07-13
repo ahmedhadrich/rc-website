@@ -26,6 +26,63 @@ export interface Event {
 
 export const events: Event[] = [
   {
+    id: "aachen-robotics-conference-2025",
+    slug: "aachen-robotics-conference",
+    title: "Aachen Robotics Conference",
+    description: "A community-focused robotics meetup aimed at connecting industry professionals, researchers, and students in Aachen.",
+    image: "https://res.cloudinary.com/dilan3qfq/image/upload/v1727137785/openroboverse/Meetup/meetup_logo_xt2pev.jpg",
+    date: "October 16, 2025",
+    time: "2:00 PM - 5:30 PM",
+    location: {
+      name: "Digital Church",
+      address: "Jülicher Str. 72 a",
+      city: "52070 Aachen, Germany",
+      mapLink: "https://maps.google.com/maps?q=Digital+Church,+Jülicher+Str.+72+a,+52070+Aachen,+Germany"
+    },
+    registrationLink: "https://lu.ma/dh0z4i3g",
+    tags: ["networking", "meetup", "robotics", "community", "innovation", "projects"],
+    content: "Join us for a community-focused robotics meetup that brings together industry professionals, researchers, and students. This event provides the perfect platform for professional networking, knowledge exchange, and collaboration in the robotics field.\n\nEvent Highlights:\n• Professional networking with industry experts and fellow robotics enthusiasts\n• Short project pitches showcasing innovative robotics solutions\n• Interactive session with multiple project exhibition booths\n• Meet potential employers, partners, or clients in the robotics community\n• Complimentary drinks and pizza for all attendees\n\nThis bilingual event (English and German) welcomes participants from all experience levels, from beginners to seasoned professionals. Whether you're looking to showcase your latest project, find collaboration opportunities, or simply connect with the local robotics community, this meetup offers valuable networking and learning opportunities.\n\nLimited spots available: 140 general admission tickets and 6 exhibitor tickets for those presenting projects.",
+    featured: true,
+    status: "upcoming",
+    galleryImages: [
+      {
+        src: "https://res.cloudinary.com/dilan3qfq/image/upload/v1727137785/openroboverse/Meetup/meetup_logo_xt2pev.jpg",
+        span: "col-span-2 row-span-2",
+        alt: "Aachen Robotics Conference main stage"
+      },
+      {
+        src: "https://res.cloudinary.com/dilan3qfq/image/upload/v1745223313/1730150684646-3_h250bh.jpg",
+        span: "col-span-2 row-span-2",
+        alt: "Conference attendees networking"
+      },
+      {
+        src: "https://res.cloudinary.com/dilan3qfq/image/upload/v1727137781/openroboverse/Meetup/meetup_back_cjvymg.jpg",
+        span: "col-span-2 row-span-1",
+        alt: "Exhibition area"
+      },
+      {
+        src: "https://res.cloudinary.com/dilan3qfq/image/upload/v1727137776/openroboverse/Meetup/meetup_pre_up1_fohztd.jpg",
+        span: "col-span-2 row-span-1",
+        alt: "Technical presentations"
+      },
+      {
+        src: "https://res.cloudinary.com/dilan3qfq/image/upload/v1745223313/1730150684504-2_c3oalr.jpg",
+        span: "col-span-1 row-span-1",
+        alt: "Robotics demonstrations"
+      },
+      {
+        src: "https://res.cloudinary.com/dilan3qfq/image/upload/v1727138102/openroboverse/Meetup/meetup_pre_up3_ojmush.jpg",
+        span: "col-span-1 row-span-1",
+        alt: "Industry partnerships"
+      },
+      {
+        src: "https://res.cloudinary.com/dilan3qfq/image/upload/v1745223313/1730150684425_qqtque.jpg",
+        span: "col-span-2 row-span-1",
+        alt: "Conference workshops"
+      }
+    ]
+  },
+  {
     id: "meetup-apr-2025",
     slug: "meetup",
     title: "Robotics Community Meetup",
